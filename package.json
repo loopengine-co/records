@@ -1,0 +1,33 @@
+{
+  "name": "@loopengine-co/records",
+  "version": "1.0.0",
+  "description": "A loopengine ability: keep named lists of records (punch-ins, daily picks, what's been done) that last between runs, with tools to add, find and remove records (removing asks first by default), plus a skill on keeping them tidy.",
+  "license": "MIT",
+  "keywords": [
+    "loopengine",
+    "loopengine-ability",
+    "records",
+    "storage",
+    "memory",
+    "tracking"
+  ],
+  "files": [
+    "loopengine.ability.json",
+    "tools",
+    "skills",
+    "actauth",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://loopengine.co",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loopengine-co/records.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loopengine-co/records/issues"
+  }
+}

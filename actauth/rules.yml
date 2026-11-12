@@ -1,0 +1,22 @@
+# Saving, finding and listing records only touch the agent's own lists,
+# so they're allowed. Removing records deletes what people recorded
+# (punch-ins, history), so it asks a person first.
+- name: records-add-allowed
+  scope: "*/*"
+  tool: records_add
+  decision: allow
+
+- name: records-find-allowed
+  scope: "*/*"
+  tool: records_find
+  decision: allow
+
+- name: records-lists-allowed
+  scope: "*/*"
+  tool: records_lists
+  decision: allow
+
+- name: records-remove-needs-approval
+  scope: "*/*"
+  tool: records_remove
+  decision: ask

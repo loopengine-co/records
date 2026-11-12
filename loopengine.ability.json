@@ -1,0 +1,12 @@
+{
+  "loopengineVersion": ">=0.1.62 <1.0.0",
+  "tools": [
+    "tools/records_add.ts",
+    "tools/records_find.ts",
+    "tools/records_remove.ts",
+    "tools/records_lists.ts"
+  ],
+  "skills": ["skills/keeping-records"],
+  "actauth": "actauth/rules.yml",
+  "env": []
+}
